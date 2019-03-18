@@ -76,20 +76,37 @@ h1{
 
 .card-header{
 	font-family: 'Montserrat', sans-serif; 
-	font-size: 1.7em;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
 	color: #D65D15;
 	border: none;
+}
+
+.card-header a{
+	color: #D65D15
+}
+
+.card-header a:hover{
+	color: #4361f4;
+	text-decoration: none;
+}
+
+.card-header, .text-center, .time{
+
 }
 
 .card-title{
 	font-size: 1em;
 	color: white;
 	font-family: inherit; 
+	padding: 5px;
 }
 
 .card-subtitle{
 	font-size: 0.9em;
 	color: white;
+	padding: 5px;
 }
 
 .footer-copyright{
